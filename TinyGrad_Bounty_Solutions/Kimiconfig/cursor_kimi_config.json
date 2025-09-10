@@ -1,0 +1,37 @@
+{
+  "name": "Kimi k2-0905 Configuration",
+  "version": "1.0.0",
+  "description": "Cursor IDE 中 Kimi k2-0905 模型的配置",
+
+  "ai": {
+    "provider": "custom",
+    "model": "moonshot-v1-8k",
+    "apiKey": "sk-pxLonvrL2WUK5O1IaEbh2x9SkFdcGP3TFRK5yhaQwCV1KGMf",
+    "baseUrl": "https://api.moonshot.cn/v1",
+    "temperature": 0.7,
+    "maxTokens": 2048
+  },
+
+  "settings": {
+    "autoComplete": true,
+    "inlineSuggestions": true,
+    "chatInterface": true,
+    "codeActions": true
+  },
+
+  "capabilities": {
+    "chat": true,
+    "completion": true,
+    "codeReview": true,
+    "refactoring": true,
+    "debugging": true
+  },
+
+  "instructions": [
+    "你是一个专业的AI编程助手",
+    "使用中文进行对话和解释",
+    "在提供代码时确保代码质量和最佳实践",
+    "对于复杂问题要详细解释解决方案",
+    "支持多种编程语言和框架"
+  ]
+}

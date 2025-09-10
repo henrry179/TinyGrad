@@ -1,0 +1,36 @@
+{
+  "ai": {
+    "enabled": true,
+    "provider": "custom",
+    "model": "moonshot-v1-8k",
+    "apiKey": "sk-pxLonvrL2WUK5O1IaEbh2x9SkFdcGP3TFRK5yhaQwCV1KGMf",
+    "baseUrl": "https://api.moonshot.cn/v1",
+    "temperature": 0.7,
+    "maxTokens": 2048,
+    "contextWindow": 8192
+  },
+  "editor": {
+    "ai": {
+      "autocomplete": true,
+      "inlineSuggestions": true,
+      "chat": true
+    }
+  },
+  "extensions": {
+    "cursor": {
+      "ai": {
+        "customProviders": [
+          {
+            "name": "Kimi AI",
+            "provider": "openai",
+            "model": "moonshot-v1-8k",
+            "apiKey": "sk-pxLonvrL2WUK5O1IaEbh2x9SkFdcGP3TFRK5yhaQwCV1KGMf",
+            "baseUrl": "https://api.moonshot.cn/v1",
+            "temperature": 0.7,
+            "maxTokens": 2048
+          }
+        ]
+      }
+    }
+  }
+}
